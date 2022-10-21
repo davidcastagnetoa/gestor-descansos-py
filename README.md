@@ -14,12 +14,11 @@ Yes, you can fork this repo. It's use a Python 3.6.8. Please give proper credit 
    pip install PySide6
    ```
 
-2. Install QML language support for Visual Studio Code Extension
+2. Install QML language support for Visual Studio Code Extension <a href="vscode:extension/bbenoist.QML">QML Baptist BENOIST</a>
 
    ```sh
    QML Baptist BENOIST
     ```
-   <a href="vscode:extension/bbenoist.QML">QML Baptist BENOIST</a>
 
 3. Install Cute IDE - QML highlighting & snippets
 
