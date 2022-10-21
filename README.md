@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/davidcastagnetoa/gestor-descansos-py/blob/main/images/screenshots/GestorDescansos.png" width="200" />
+  <img alt="Logo" src="https://github.com/davidcastagnetoa/gestor-descansos-py/blob/main/images/screenshots/GestorDescansos.png" />
 </div>
 <h1 align="center">
   Gestor Descansos
