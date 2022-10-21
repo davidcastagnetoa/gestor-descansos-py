@@ -24,6 +24,10 @@ Button{
 
     width: 35
     height: 30
+    text: qsTr("")
+    hoverEnabled: true
+    enabled: true
+    autoExclusive: true
 
     background: Rectangle{
         id: bgBtn
@@ -44,15 +48,17 @@ Button{
         }
 
         ColorOverlay{
-            width: 20
-            height: 20
-            anchors.fill: iconBtn
             source: iconBtn
-            anchors.bottomMargin: 0
-            anchors.leftMargin: 0
             anchors.rightMargin: 0
+            anchors.leftMargin: 0
+            anchors.bottomMargin: 0
             anchors.topMargin: 0
+            cached: false
             color: "#ffffff"
+            anchors.left: iconBtn.left
+            anchors.right: iconBtn.right
+            anchors.top: iconBtn.top
+            anchors.bottom: iconBtn.bottom
             antialiasing: false
         }
     }
@@ -62,6 +68,6 @@ Button{
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:16}
+    D{i:0;formeditorZoom:16}D{i:3}D{i:4}
 }
 ##^##*/

@@ -24,6 +24,8 @@ Button{
 
     width: 35
     height: 30
+    display: AbstractButton.TextBesideIcon
+    activeFocusOnTab: true
 
     background: Rectangle{
         id: bgBtn
@@ -32,10 +34,10 @@ Button{
         Image {
             id: iconBtn
             anchors.verticalCenter: parent.verticalCenter
-            source: "../../images/png_icons_wanderson/close_icon.png"
+            source: "wanderson_icons_svg/close_icon.svg"
             anchors.horizontalCenter: parent.horizontalCenter
-            height: 15
-            width: 15
+            height: 20
+            width: 20
             visible: false
             fillMode: Image.PreserveAspectFit
             antialiasing: false
@@ -46,6 +48,8 @@ Button{
             height: 20
             anchors.fill: iconBtn
             source: iconBtn
+            z: 0
+            activeFocusOnTab: false
             anchors.bottomMargin: 0
             anchors.leftMargin: 0
             anchors.rightMargin: 0

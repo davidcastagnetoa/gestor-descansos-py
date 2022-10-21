@@ -31,7 +31,7 @@ Button {
         width: 20
         height: 20
         anchors.verticalCenter: parent.verticalCenter
-        source: "../../images/png_icons_wanderson/close_icon.png"
+        source: "../../images/svg_icons/png_icons_wanderson/close_icon.png"
         anchors.horizontalCenter: parent.horizontalCenter
         fillMode: Image.PreserveAspectFit
     }
