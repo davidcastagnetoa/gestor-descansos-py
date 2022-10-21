@@ -14,7 +14,7 @@ Yes, you can fork this repo. It's use a Python 3.6.8. Please give proper credit 
 1. Install PySide
 
    ```sh
-   pip install PySide6
+   pip install PySide2
    ```
 
 2. Install QML language support for Visual Studio Code Extension by Baptist BENOIST
