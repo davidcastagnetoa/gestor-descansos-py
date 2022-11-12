@@ -256,17 +256,6 @@ Window {
 
     }
 
-    DropShadow {
-        visible: true
-        anchors.fill: background
-        source: background
-        verticalOffset: 0
-        horizontalOffset: 0
-        radius: 6
-        color: "#7d00fb"
-        z: 0
-    }
-
     Timeline {
         id: timeline
         animations: [
